@@ -18,4 +18,4 @@ Install the VMware Workstation Player in Window 10.
 
 ### Lab - 03 Shell Scripting
 
-[Lab-02 Exercise](https://github.com/hamadhassan/Operating-System/tree/main/Lab-03)
+[Lab-03 Exercise](https://github.com/hamadhassan/Operating-System/tree/main/Lab-03)
