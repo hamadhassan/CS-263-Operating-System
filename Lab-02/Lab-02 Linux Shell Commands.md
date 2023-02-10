@@ -14,7 +14,7 @@ Create a file named “XXXX-CS-XXX.txt”. File must contain at least 10 lines.
 
 **Solution**
 
-![image-20230127165352320](.\Images\image-20230127165352320.png)
+![image-20230127165352320](Images\image-20230127165352320.png)
 
 ```
 touch 2021-CS-33.txt
@@ -40,7 +40,7 @@ Create another file named “your name.txt”. File must contain at least 10 lin
 
 **Solution**
 
-![image-20230127170014823](.\Images\image-20230127170014823.png)
+![image-20230127170014823](Images\image-20230127170014823.png)
 
 ```bash
 touch M.HamadHassan.txt
@@ -66,7 +66,7 @@ Merge the data of both files.
 
 **Solution**
 
-![image-20230127170328519](.\Images\image-20230127170328519.png)
+![image-20230127170328519](Images\image-20230127170328519.png)
 
 ```bash
 cat 2021-CS-33.txt M.HamadHassan.txt
@@ -78,7 +78,7 @@ Redirect the output to a new file.
 
 **Solution**
 
-![image-20230127170605666](.\Images\image-20230127170605666.png)
+![image-20230127170605666](Images\image-20230127170605666.png)
 
 ````bash
 cat 2021-CS-33.txt M.HamadHassan.txt > mergeContent.txt
@@ -93,7 +93,7 @@ Display the first two lines of first file.
 
 **Solution**
 
-![image-20230127171320885](.\Images\image-20230127171320885.png)
+![image-20230127171320885](Images\image-20230127171320885.png)
 
 ```bash
 head -2 2021-CS-33.txt
@@ -105,7 +105,7 @@ Display the last two lines of second file.
 
 **Solution**
 
-![image-20230127171502210](.\Images\image-20230127171502210.png)
+![image-20230127171502210](Images\image-20230127171502210.png)
 
 ```bash
 tail -2 M.HamadHassan.txt
@@ -129,7 +129,7 @@ Grant the execute permission of the second file to the group.
 
 **Solution**
 
-![image-20230127172651413](.\Images\image-20230127172651413.png)
+![image-20230127172651413](Images\image-20230127172651413.png)
 
 ```bash
 ls -l
@@ -143,7 +143,7 @@ Remove the write permission for the owner.
 
 **Solution**
 
-![image-20230127173201581](.\Images\image-202301271730295482.png)
+![image-20230127173201581](Images\image-202301271730295482.png)
 
 ```bash
 ls -l
@@ -158,7 +158,7 @@ location.
 
 **Solution**
 
-![image-20230127173342182](.\Images\image-20230127173342182.png)
+![image-20230127173342182](Images\image-20230127173342182.png)
 
 ```bash
 pwd
@@ -170,7 +170,7 @@ He wants the list of all files present on Desktop directory.
 
 **Solution**
 
-![image-20230127173431832](.\Images\image-20230127173431832.png)
+![image-20230127173431832](Images\image-20230127173431832.png)
 
 ```bash
 ls
@@ -185,7 +185,7 @@ your roll#.
 
 **Solution**
 
-![image-20230127173549582](C:\Users\Hammad Hassan\AppData\Roaming\Typora\typora-user-images\image-20230127173549582.png)
+![image-20230127173549582](Images\image-20230127173549582.png)
 
 ```bash
 mkdir 2021-CS-33
@@ -197,7 +197,7 @@ Display the current time.
 
 **Solution**
 
-![image-20230127174110182](.\Images\image-20230127174110182.png)
+![image-20230127174110182](Images\image-20230127174110182.png)
 
 ```bash
 timedatectl
@@ -210,7 +210,7 @@ thankyou message.
 
 **Solution**
 
-![image-20230127174303101](.\Images\image-20230127174303101.png)
+![image-20230127174303101](Images\image-20230127174303101.png)
 
 ```bash
 Thanks you so much
@@ -227,7 +227,7 @@ The file must contain all lab rules covered in first lab.
 
 **Solution**
 
-![image-20230127175601046](.\Images\image-20230127175601046.png)
+![image-20230127175601046](Images\image-20230127175601046.png)
 
 
 
@@ -243,7 +243,7 @@ You want to set the rights of created file to this (- rwx r-x r--).
 
 **Solution**
 
-![image-20230127175431538](.\Images\image-20230127175431538.png)
+![image-20230127175431538](Images\image-20230127175431538.png)
 
 ```bash
 chmod g-w 2021-CS-33_OS-lab-rules.txt
@@ -258,7 +258,7 @@ Append the output of ls command to created file.
 
 **Solution**
 
-![image-20230127180803463](.\Images\image-20230127180803463.png)
+![image-20230127180803463](Images\image-20230127180803463.png)
 
 ```bash
 cat 2021-CS-33_OS-lab-rules.txt >> fileContents
