@@ -12,7 +12,7 @@ VMware Workstation Player, formerly VMware Player, is a virtualization software 
    vmware workstation player download
    ```
 
-   ![image-20230121115302844](..\Lab-01\image-20230121115302844.png)
+   ![image-20230121115302844](image-20230121115302844.png)
 
    
 
