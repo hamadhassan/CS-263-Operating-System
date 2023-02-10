@@ -8,13 +8,13 @@ Create a simple script which will take two command line arguments and then multi
 
 Create a new file using nano command 
 
-![image-20230206133902734](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206133902734.png)
+![image-20230206133902734](image-20230206133902734.png)
 
 ```bash
 nano multiply.sh
 ```
 
-![image-20230206134009600](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206134009600.png)
+![image-20230206134009600](image-20230206134009600.png)
 
 ```bash
 #!/bin/bash
@@ -36,13 +36,13 @@ Press Enter to close the nano window
 
 
 
-![image-20230206134117397](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206134117397.png)
+![image-20230206134117397](image-20230206134117397.png)
 
 ```bash
 chmod 777 multiply.sh
 ```
 
-![image-20230206134156002](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206134156002.png)
+![image-20230206134156002](image-20230206134156002.png)
 
 ```
 ./multiply.sh
@@ -56,7 +56,7 @@ Create a simple script, which will ask the user for a few pieces of information 
 
 Create a new file using nano command 
 
-![image-20230206135512376](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206135512376.png)
+![image-20230206135512376](image-20230206135512376.png)
 
 ```bash
 nano join.sh
@@ -64,7 +64,7 @@ nano join.sh
 
 
 
-![image-20230206135538313](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206135538313.png)
+![image-20230206135538313](image-20230206135538313.png)
 
 ```bash
 #!/bin/bash
@@ -83,7 +83,7 @@ Save modify buffer by pressing Y
 
 Press Enter to close the nano window
 
-![](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206135624639.png)
+![](image-20230206135624639.png)
 
 ```bash
 chmod 777 join.sh
@@ -96,7 +96,7 @@ Now Mr. Tom suddenly lost the track of his current location. Help him find his l
 
 **Solution**
 
-![image-20230206135702418](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206135702418.png)
+![image-20230206135702418](image-20230206135702418.png)
 
 ```bash
 pwd
@@ -108,7 +108,7 @@ He wants the list of all files present on home directory.
 
 **Solution**
 
-![image-20230206135746170](C:\Users\Hammad Hassan\AppData\Roaming\Typora\typora-user-images\image-20230206135746170.png)
+![image-20230206135746170](image-20230206135746170.png)
 
 ```bash
 ls
@@ -120,7 +120,7 @@ Display the current time.
 
 **Solution**
 
-![image-20230206135929934](C:\Users\Hammad Hassan\AppData\Roaming\Typora\typora-user-images\image-20230206135929934.png)
+![image-20230206135929934](image-20230206135929934.png)
 
 ```bash
 timedatectl
@@ -132,7 +132,7 @@ He is done with the task and he is happy with your work. He want to display a th
 
 **Solution**
 
-![image-20230206140042578](C:\Users\Hammad Hassan\AppData\Roaming\Typora\typora-user-images\image-20230206140042578.png)
+![image-20230206140042578](image-20230206140042578.png)
 
 ```bash
 echo "Thank you so much"
@@ -150,13 +150,13 @@ Write a simple shell script that uses arithmetic operators (+, -,*) using double
 
 Create a new file using nano command 
 
-![image-20230206140742803](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206140742803.png)
+![image-20230206140742803](image-20230206140742803.png)
 
 ```bash
 nano sumDoubleParenthesis.sh
 ```
 
-![image-20230206140818574](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206140818574.png)
+![image-20230206140818574](image-20230206140818574.png)
 
 ```bash
 #!/bin/bash
@@ -178,7 +178,7 @@ Save modify buffer by pressing Y
 
 Press Enter to close the nano window
 
-![image-20230206140922229](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206140922229.png)
+![image-20230206140922229](image-20230206140922229.png)
 
 ```bash
 chmod 777 sumDoubleParenthesis.sh
@@ -197,9 +197,9 @@ Create a new file using nano command
 nano sumDouble.sh
 ```
 
-![image-20230206141548510](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206141548510.png)
+![image-20230206141548510](image-20230206141548510.png)
 
-![image-20230206144133062](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206144133062.png)
+![image-20230206144133062](image-20230206144133062.png)
 
 ```bash
 #!/bin/bash
@@ -220,7 +220,7 @@ Save modify buffer by pressing Y
 
 Press Enter to close the nano window
 
-![image-20230206144300054](D:\COMPUTER SCIENCE\Repo_OS\Lab-03\image-20230206144300054.png)
+![image-20230206144300054](image-20230206144300054.png)
 
 ```bash
 chmod 777 sumDouble.sh
