@@ -8,6 +8,14 @@ In this lab we will learn how to perform the following task,
 
 All of these task will be performed using the Shell Scripting which is power way to write the commands in the ubuntu operating system.
 
+In all files it is required that give the permission to read, write and execute by using following command
+
+```bash
+chmod 777 [filename]
+```
+
+ The 777 grant the  read, write and execute permission.  
+
 ## 1. Conditional Statements
 
 The decisions making in the shell scripting give new power to perform the complex task. 
@@ -45,7 +53,7 @@ Press CTRL+X command to save the file
 
 Save modify buffer by pressing Y 
 
-Press Enter to close the nano text editor
+Press Enter to close the Nano text editor
 
 e.g
 
@@ -65,25 +73,86 @@ It will run the the script on the terminal.e.g
 
 **Question-02**
 
+Create a Bash script which will print a message based upon which day of the
+week it is (eg. 3 for Wednesday, 5 for Friday etc) using
+switch statement.
+
 **Solution**
 
-![image-20230213143641976](image-20230213143641976.png)
+````bash
+nano task2Decision.sh
+````
+
+Open the terminal based  text editor using the nano keyword follow by the file name where the  file will be stored. e.g![image-20230213143641976](image-20230213143641976.png)
+
+After writing the code into the terminal 
+
+Press CTRL+X command to save the file
+
+Save modify buffer by pressing Y 
+
+Press Enter to close the Nano text editor
+
+e.g
 
 ![image-20230213143612199](image-20230213143612199.png)
 
+Run the file on the terminal using the following command 
+
+```bash
+ ./task2Decision.sh
+```
+
+It will run the the script on the terminal.e.g
+
 ![image-20230213143744991](image-20230213143744991.png)
 
+### 3. Loops
 
+Loops are used to perform the repetitive task in the easier way.
 
-### Task 2 (Loops)
+**Syntax** 
+
+```bash
+while ((condition))
+do
+then # *block of code to be executed if the condition is true*
+done
+```
+
+**Note** Make sure that you close the loop by then keyword.
 
 **Question-01**
 
 **Solution**
 
+````bash
+nano task1Loop.sh
+````
+
+Open the terminal based  text editor using the Nano keyword follow by the file name where the  file will be stored. e.g
+
 ![image-20230213144407963](image-20230213144407963.png)
 
+After writing the code into the terminal 
+
+Press CTRL+X command to save the file
+
+Save modify buffer by pressing Y 
+
+Press Enter to close the Nano text editor
+
+e.g
+
 ![image-20230213144452703](image-20230213144452703.png)
+
+Run the file on the terminal using the following command 
+
+```bash
+ ./ task1Loop.sh
+```
+
+It will run the the script on the terminal.e.g
 
 ![image-20230213144431422](image-20230213144431422.png)
 
