@@ -4,7 +4,7 @@ In this lab we will learn how to perform the following task,
 
 1. **Arrays**
 
-An array is a systematic arrangement of the same type of data. But in Shell script Array is a variable which contains multiple values may be of same type or different type since by default in shell script everything is treated as a string. An array is zero-based ie indexing start with 0.
+An array is a systematic arrangement of the same type of data. But in Shell script Array is a variable which contains multiple values may be of same type or different type since by default in shell script everything is treated as a string. An array is zero-based i.e indexing start with 0.
 
 1. **Indirect Declaration**
 
@@ -65,7 +65,7 @@ Press Enter to close the Nano text editor
 e.g
 
 ```bash
-!/bin/bash
+#!/bin/bash
 if [ -z "$1" ]; then
    echo "No argument supplied. Please supply an array of integers as argument."
    exit 1
@@ -121,7 +121,7 @@ Press Enter to close the Nano text editor
 e.g
 
 ```bash
-!/bin/bash
+#!/bin/bash
 array=(5 10 15 20 25 30 35 40 45 50)
 max=${array[0]}
 for i in "${array[@]}"
@@ -226,3 +226,7 @@ Run the file on the terminal using the following command
 ```bash
  ./task4.sh
 ```
+
+**Conclusion**
+
+Array provide the user to store large amount of data efficiently and also able to access

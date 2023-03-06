@@ -73,8 +73,7 @@ It will run the the script on the terminal.e.g
 
 **Question-02**
 
-Create a Bash script which will print a message based upon which day of the
-week it is (eg. 3 for Wednesday, 5 for Friday etc) using
+Create a Bash script which will print a message based upon which day of the week it is (eg. 3 for Wednesday, 5 for Friday etc) using
 switch statement.
 
 **Solution**
